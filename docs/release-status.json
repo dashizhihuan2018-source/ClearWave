@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "product": "澄音音乐 / ClearWave",
   "statusDate": "2026-10-28",
-  "websiteRevision": "preview-20261028-r2",
+  "websiteRevision": "preview-20261028-r3",
   "releaseType": "website-preview-only",
   "software": {
     "finalVersion": null,
@@ -10,7 +10,7 @@
     "publicSourceStatus": "NOT_PUBLISHED",
     "license": "UNDECIDED",
     "platforms": {
-      "macos": {"status": "ADAPTATION_PENDING", "artifact": null, "sha256": null, "gui": "NOT_ACCEPTED", "signature": "NOT_VERIFIED"},
+      "macos": {"status": "LOCAL_TECHNICAL_PREVIEW_NOT_PUBLIC_RELEASE", "artifact": null, "sha256": null, "gui": "INCOMPLETE_NOT_ACCEPTED", "signature": "LOCAL_PREVIEW_ADHOC_VERIFIED_NOT_DEVELOPER_ID_NOT_NOTARIZED", "previewArchitecture": "arm64", "previewMinimumMacOS": "14.0"},
       "windows": {"status": "NOT_AVAILABLE", "artifact": null, "sha256": null, "gui": "NOT_RUN", "signature": "NOT_VERIFIED"},
       "ios": {"status": "UNSIGNED_DEVELOPMENT_CANDIDATE", "artifact": null, "sha256": null, "deviceGUI": "NOT_RUN", "signature": "UNSIGNED_HISTORICAL_BUILD"}
     },

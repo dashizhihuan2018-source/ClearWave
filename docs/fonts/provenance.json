@@ -7,8 +7,8 @@
   "license": "OFL-1.1",
   "reservedNameHandling": "Renamed derived family and CFF names; original copyright and license retained",
   "changes": "Character subset for current HTML and WOFF2 conversion; outlines not redrawn",
-  "chineseCodePoints": 557,
+  "chineseCodePoints": 560,
   "missingChinese": [],
-  "bytes": 256128,
-  "sha256": "dcdf310917edc828bde7d914d6b0fe1090791aebd887efdb917a98b1b5935623"
+  "bytes": 256848,
+  "sha256": "04cdd3e025cf7d451222a9a0106a499739dd5516baaab822309457e002558ad4"
 }
