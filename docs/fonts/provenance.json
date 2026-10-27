@@ -1,0 +1,14 @@
+{
+  "source": "https://github.com/adobe-fonts/source-han-serif/blob/release/OTF/SimplifiedChinese/SourceHanSerifSC-Bold.otf",
+  "sourceGitBlob": "d5b31b1d3b9b32b2f2232dd51cf303688303b000",
+  "sourceSHA256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe",
+  "derivedFamily": "ClearWaveTitle Bold",
+  "weight": 700,
+  "license": "OFL-1.1",
+  "reservedNameHandling": "Renamed derived family and CFF names; original copyright and license retained",
+  "changes": "Character subset for current HTML and WOFF2 conversion; outlines not redrawn",
+  "chineseCodePoints": 557,
+  "missingChinese": [],
+  "bytes": 256128,
+  "sha256": "dcdf310917edc828bde7d914d6b0fe1090791aebd887efdb917a98b1b5935623"
+}

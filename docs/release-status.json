@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "product": "澄音音乐 / ClearWave",
+  "statusDate": "2026-10-28",
+  "websiteRevision": "preview-20261028-r1",
+  "releaseType": "website-preview-only",
+  "software": {
+    "finalVersion": null,
+    "sourceCommit": null,
+    "publicSourceStatus": "NOT_PUBLISHED",
+    "license": "UNDECIDED",
+    "platforms": {
+      "macos": {"status": "ADAPTATION_PENDING", "artifact": null, "sha256": null, "gui": "NOT_ACCEPTED", "signature": "NOT_VERIFIED"},
+      "windows": {"status": "NOT_AVAILABLE", "artifact": null, "sha256": null, "gui": "NOT_RUN", "signature": "NOT_VERIFIED"},
+      "ios": {"status": "UNSIGNED_DEVELOPMENT_CANDIDATE", "artifact": null, "sha256": null, "deviceGUI": "NOT_RUN", "signature": "UNSIGNED_HISTORICAL_BUILD"}
+    },
+    "knownIssues": ["Intermittent iPad XCTest animation-idle timeout remains unresolved", "No final three-platform release", "No entity-device audio-output acceptance"]
+  },
+  "media": {"poster": "AI_VISUAL_DRAFT_R1_NOT_APP_CAPTURE", "video": "WAITING_FOR_FINAL_CANDIDATE_CAPTURE", "userApproval": "PENDING"}
+}
