@@ -7,12 +7,12 @@
   <meta name="theme-color" content="#F4F0E7">
   <title>澄音音乐 ClearWave — 听见，纯粹。</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="brand-mark-r2a.png" type="image/png">
 </head>
 <body>
   <a class="skip" href="#main">跳到正文</a>
   <header class="wrap header">
-    <a class="brand" href="./" aria-label="澄音音乐首页">澄音<span>CLEARWAVE</span></a>
+    <a class="brand" href="./" aria-label="澄音音乐首页"><img src="brand-mark-r2a.png" width="32" height="32" alt="">澄音<span>CLEARWAVE</span></a>
     <nav aria-label="主导航"><a href="#experience">功能与边界</a><a href="guide.html">使用导览</a><a href="rights.html">隐私与权利</a><a class="nav-status" href="#downloads">三端发布状态 ↗</a></nav>
   </header>
   <main id="main">
@@ -43,8 +43,8 @@
     <section class="platforms" id="downloads" aria-labelledby="download-title"><div class="wrap">
       <div class="section-head"><p class="eyebrow">发布状态 / 2026-10-28</p><h2 id="download-title">每个平台，<br>单独说清楚。</h2><p>还没有可供公众安装的最终版本。这里不会用模拟器包或未经目标系统验证的构建充当下载。</p></div>
       <div class="platform-grid">
-        <article data-platform="macos"><p class="label">MACOS</p><h3>Mac</h3><span class="status">本机技术预览</span><p>Mac Catalyst 技术预览已在开发机安装并启动，arm64 / macOS 14 起。完整导入、进度、队列、歌单与重开验收仍未闭合，尚非公开发行候选。</p><dl><dt>正式包 / 架构</dt><dd>暂无 / 预览为 arm64</dd><dt>签名 / 公证</dt><dd>预览为 ad-hoc，非 Developer ID，未公证</dd><dt>大小 / SHA-256</dt><dd>无正式包，不提供占位哈希</dd></dl><p class="unavailable">尚未开放下载</p></article>
-        <article data-platform="windows"><p class="label">WINDOWS</p><h3>Windows</h3><span class="status">尚未交付</span><p>共享核心不等于 Windows App。还没有最终桌面包、安装与真实 Windows 运行证据。</p><dl><dt>正式包 / 架构</dt><dd>暂无 / 待确认</dd><dt>签名 / 安装验证</dt><dd>未运行</dd><dt>大小 / SHA-256</dt><dd>无正式包，不提供占位哈希</dd></dl><p class="unavailable">尚未开放下载</p></article>
+        <article data-platform="macos"><p class="label">MACOS</p><h3>Mac</h3><span class="status">本机导入与播放已验证</span><p>Mac Catalyst 0.1.0 / build 2 已在开发机安装，arm64 / macOS 14 起。开发记录已验证文件选择导入、播放/暂停、进度、队列、歌单和正常退出重开；这仍是本机候选，不是最终公开发行。</p><dl><dt>正式包 / 架构</dt><dd>暂无 / 本机候选为 arm64</dd><dt>签名 / 公证</dt><dd>本机为 ad-hoc，非 Developer ID，未公证</dd><dt>大小 / SHA-256</dt><dd>无正式包，不提供占位哈希</dd></dl><p class="unavailable">尚未开放下载</p></article>
+        <article data-platform="windows"><p class="label">WINDOWS</p><h3>Windows</h3><span class="status">已有交叉构建 EXE</span><p>Rust / egui 本地播放器已交叉构建出 x64 Release EXE。尚未在真实 Windows 验证界面、安装与运行；运行时依赖和分发许可仍需闭合，不能当作已可用的单文件安装包。</p><dl><dt>正式包 / 架构</dt><dd>暂无 / 构建为 x64</dd><dt>签名 / 安装验证</dt><dd>未签名 / 目标系统未运行</dd><dt>大小 / SHA-256</dt><dd>无正式包，不提供占位哈希</dd></dl><p class="unavailable">尚未开放下载</p></article>
         <article data-platform="ios"><p class="label">IOS / IPADOS</p><h3>iPhone 与 iPad</h3><span class="status">开发候选</span><p>现有设备架构构建未签名，模拟器记录不能替代真机安装。没有 App Store / TestFlight 公开入口。</p><dl><dt>正式包 / 系统</dt><dd>暂无 / 现有工程目标 iOS 17+</dd><dt>签名 / 真机验证</dt><dd>待合法签名与实体运行</dd><dt>大小 / SHA-256</dt><dd>无正式包，不提供占位哈希</dd></dl><p class="unavailable">尚未开放下载</p></article>
       </div>
       <div class="release-note"><h3>安装包与源码，会成对发布。</h3><p>当前公有仓库只包含本站、宣传草案及公众状态，不是完整 App 源码。真正候选冻结并通过对应检查后，才同步完整源码、版本标签、安装包和最终哈希。软件许可尚未选定，不因可见源码就自动授予 MIT 等开源许可。</p><a class="text-link" href="https://github.com/dashizhihuan2018-source/ClearWave">查看公有项目与当前范围 ↗</a> · <a class="text-link" href="release-status.json">机器可读发布状态 ↗</a></div>

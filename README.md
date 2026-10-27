@@ -6,12 +6,12 @@
 
 ## 本次公开范围
 
-2026-10-28：本仓库首批仅包含独立产品网站、宣传海报视觉草案、字体许可及公众发布状态，**不包含完整 App 源码或最终安装器**，不能据此称软件最终发布已经完成。网站图片不是 App 实拍或最终 Logo，暂无最终实操视频。
+2026-10-28：本仓库仅包含独立产品网站、已采用的 R2-A 品牌位图、宣传海报视觉草案、字体许可及公众发布状态，**不包含完整 App 源码或最终安装器**，不能据此称软件最终发布已经完成。海报不是 App 实拍或最终 Logo，暂无最终实操视频。
 
 | 平台 | 当前状态 | 公开安装包 |
 |---|---|---|
-| macOS | arm64 / macOS 14 起的 Mac Catalyst 本机技术预览已安装启动；ad-hoc 非 Developer ID、未公证，完整 GUI 验收与最终发行候选仍待交接 | 无 |
-| Windows | 尚未交付目标平台 App 与运行证据 | 无 |
+| macOS | arm64 / macOS 14 起的 Mac Catalyst 0.1.0/build 2 已本机安装；开发记录验证文件选择导入、播放/暂停、进度、队列、歌单与重开；ad-hoc 非 Developer ID、未公证，最终发行候选仍待交接 | 无 |
+| Windows | Rust / egui 本地播放器已有交叉构建 x64 Release EXE；真实 Windows 界面/安装/运行、运行时依赖与许可闭包待验收 | 无 |
 | iOS / iPadOS | Rust + SwiftUI / AVFoundation 开发候选；既有设备构建未签名，真机验收未完成 | 无 |
 
 历史模拟器通过记录不等于三端交付。iPad XCTest 间歇性动画 idle 超时仍未闭合。没有发布软件 Release 或最终版本标签；没有模拟器包冒充手机安装器。
@@ -26,6 +26,6 @@
 
 静态网页在 `docs/`，无构建、登录、付款、统计或上传服务。可用静态 HTTP 服务预览。所有资源采用相对路径；GitHub Pages 发布来源为 `main:/docs`。现有机器可读状态在 [release-status.json](docs/release-status.json)，其中 App 产物与源码提交为空是实际未发布状态，不是占位下载。
 
-网站标题字形来自 Adobe Source Han Serif Bold；派生子集重命名为 ClearWaveTitle Bold，依 OFL-1.1，详见 [字体来源](docs/fonts/provenance.json) 与 [完整许可](docs/fonts/OFL.txt)。海报由内置 ImageGen 生成，仅是候选构图，不是真实字体排版、最终 Logo 或应用截图。见 [媒体来源](MEDIA.md)。
+网站标题字形来自 Adobe Source Han Serif Bold；派生子集重命名为 ClearWaveTitle Bold，依 OFL-1.1，详见 [字体来源](docs/fonts/provenance.json) 与 [完整许可](docs/fonts/OFL.txt)。导航标识使用已接入 App 的 R2-A 原始 AI 位图；海报由内置 ImageGen 生成，仅是候选构图，不是真实字体排版、最终 Logo 或应用截图。见 [媒体来源](MEDIA.md)。
 
 © 2026 Nankong。各第三方权利独立适用。

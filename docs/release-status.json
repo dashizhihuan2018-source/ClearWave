@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "product": "澄音音乐 / ClearWave",
   "statusDate": "2026-10-28",
-  "websiteRevision": "preview-20261028-r3",
+  "websiteRevision": "preview-20261028-r4",
   "releaseType": "website-preview-only",
   "software": {
     "finalVersion": null,
@@ -10,11 +10,11 @@
     "publicSourceStatus": "NOT_PUBLISHED",
     "license": "UNDECIDED",
     "platforms": {
-      "macos": {"status": "LOCAL_TECHNICAL_PREVIEW_NOT_PUBLIC_RELEASE", "artifact": null, "sha256": null, "gui": "INCOMPLETE_NOT_ACCEPTED", "signature": "LOCAL_PREVIEW_ADHOC_VERIFIED_NOT_DEVELOPER_ID_NOT_NOTARIZED", "previewArchitecture": "arm64", "previewMinimumMacOS": "14.0"},
-      "windows": {"status": "NOT_AVAILABLE", "artifact": null, "sha256": null, "gui": "NOT_RUN", "signature": "NOT_VERIFIED"},
+      "macos": {"status": "LOCAL_BUILD2_IMPORT_PLAYBACK_VERIFIED_NOT_FINAL_RELEASE", "artifact": null, "sha256": null, "gui": "LOCAL_IMPORT_PLAY_PAUSE_SEEK_QUEUE_PLAYLIST_REOPEN_VERIFIED_BY_DEVELOPMENT", "signature": "LOCAL_PREVIEW_ADHOC_VERIFIED_NOT_DEVELOPER_ID_NOT_NOTARIZED", "previewVersion": "0.1.0", "previewBuild": "2", "previewArchitecture": "arm64", "previewMinimumMacOS": "14.0"},
+      "windows": {"status": "CROSS_BUILT_X64_LOCAL_PLAYER_NOT_WINDOWS_RUN", "artifact": null, "sha256": null, "gui": "TARGET_WINDOWS_NOT_RUN", "signature": "UNSIGNED", "runtimeClosure": "PENDING_TARGET_LOADER_AND_DISTRIBUTION_REVIEW"},
       "ios": {"status": "UNSIGNED_DEVELOPMENT_CANDIDATE", "artifact": null, "sha256": null, "deviceGUI": "NOT_RUN", "signature": "UNSIGNED_HISTORICAL_BUILD"}
     },
     "knownIssues": ["Intermittent iPad XCTest animation-idle timeout remains unresolved", "No final three-platform release", "No entity-device audio-output acceptance"]
   },
-  "media": {"poster": "AI_VISUAL_DRAFT_R1_NOT_APP_CAPTURE", "video": "WAITING_FOR_FINAL_CANDIDATE_CAPTURE", "userApproval": "PENDING"}
+  "media": {"brand": "R2_A_ORIGINAL_AI_RASTER_ADOPTED_IN_APP_AND_WEBSITE", "brandSHA256": "3a888aa6192f2cf7e5f9151e18ce5d11c84d95311cbfbdde47c5d33a919cc00f", "poster": "AI_VISUAL_DRAFT_R1_NOT_APP_CAPTURE", "video": "WAITING_FOR_FINAL_CANDIDATE_CAPTURE", "userApproval": "PENDING"}
 }
